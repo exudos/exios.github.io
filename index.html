@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Informatieve Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #001f3f;
+            color: white;
+            display: flex;
+            justify-content: center; /* Horizontale centrering */
+            align-items: center; /* Verticale centrering */
+            min-height: 100vh; /* Maakt de pagina minstens zo hoog als het viewport */
+        }
+        .content {
+            text-align: center; /* Centreren van tekst in de content container */
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 1rem 0;
+            border-radius: 15px;
+            margin: 1rem;
+            display: flex;
+            align-items: center;
+        }
+        header img {
+            margin-right: 1rem; /* Ruimte tussen afbeelding en tekst */
+            max-height: 50px; /* Maximale hoogte van de afbeelding */
+        }
+        nav {
+            background-color: #004080;
+            border-radius: 15px;
+            margin: 1rem;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            border-radius: 15px;
+        }
+        nav ul li a:hover {
+            background-color: #0059b3;
+        }
+        main {
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 1rem;
+            background-color: #00264d;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            padding: 1rem 0;
+            border-radius: 15px;
+            margin: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <header>
+            <img src="path_to_your_image.jpg" alt="Logo">
+            <h1>Welkom op onze Informatieve Website</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Regels</a></li>
+                <li><a href="services.html">Diensten</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="home">
+                <h2>Home</h2>
+                <p>Welkom op onze website. Hier vind je allerlei informatie over diverse onderwerpen.</p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Informatieve Website. Alle rechten voorbehouden.</p>
+        </footer>
+    </div>
+</body>
+</html>
